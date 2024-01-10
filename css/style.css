@@ -19,5 +19,26 @@ html {
 
 body {
   font-family: "Karla", sans-serif;
-  font-size: 13px;
+  font-size: 18px;
+  background: var(--neutral-Grayish-Blue);
+}
+
+.info-container {
+  background: var(--neutral-Light-Gray);
+  margin: 2rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.info-title {
+  color: var(--primary-Cyan);
+  padding: 2rem 0 0 2rem;
+}
+.deal {
+  color: var(--primary-Bright-Yellow);
+  padding: 0 2rem;
+}
+.info-deal {
+  padding: 0 2rem 3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
