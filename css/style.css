@@ -5,10 +5,13 @@
   --primary-Bright-Yellow: hsl(71, 73%, 54%);
   --neutral-Light-Gray: hsl(204, 43%, 93%);
   --neutral-Grayish-Blue: hsl(218, 22%, 67%);
+  --padding-padding: 0 0 2rem 2rem;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Typography */
@@ -25,20 +28,61 @@ body {
 
 .info-container {
   background: var(--neutral-Light-Gray);
-  margin: 2rem;
+  margin: 2rem 2rem 0;
   border-radius: 5px 5px 0 0;
+  padding: 0;
 }
 
 .info-title {
   color: var(--primary-Cyan);
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 0 2rem 2rem;
 }
 .deal {
   color: var(--primary-Bright-Yellow);
-  padding: 0 2rem;
+  padding: 0 2rem 2rem;
 }
-.info-deal {
+.information {
   padding: 0 2rem 3rem;
   line-height: 1.5;
   letter-spacing: 1px;
+}
+
+.payment-container {
+  background: var(--primary-Cyan);
+  margin: 0 2rem;
+}
+.payment-title {
+  padding: 2rem 0 0 2rem;
+  color: var(--neutral-Light-Gray);
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1 {
+  color: var(--neutral-Light-Gray);
+}
+
+.monthly-payment,
+h1 {
+  padding: var(--padding-padding);
+}
+
+.payment-info {
+  color: var(--neutral-Light-Gray);
+  padding: var(--padding-padding);
+  margin-top: -3rem;
+}
+
+.btn-submit {
+  width: 88%;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 5px;
+  background: var(--primary-Bright-Yellow);
+  color: var(--neutral-Light-Gray);
+  border: none;
+  box-shadow: 0 0 30px var(--primary-Cyan);
 }
