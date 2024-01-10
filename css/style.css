@@ -6,3 +6,18 @@
   --neutral-Light-Gray: hsl(204, 43%, 93%);
   --neutral-Grayish-Blue: hsl(218, 22%, 67%);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+}
