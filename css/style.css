@@ -1,0 +1,8 @@
+@import url(./normalize.css);
+
+:root {
+  --primary-Cyan: hsl(179, 62%, 43%);
+  --primary-Bright-Yellow: hsl(71, 73%, 54%);
+  --neutral-Light-Gray: hsl(204, 43%, 93%);
+  --neutral-Grayish-Blue: hsl(218, 22%, 67%);
+}
