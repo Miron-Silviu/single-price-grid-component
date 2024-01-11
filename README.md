@@ -1,4 +1,4 @@
-#Single-Price-Grid
+#SINGLE-PRICE-GRID-COMPONENT
 
 ## Table of contents
 
