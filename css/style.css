@@ -27,6 +27,11 @@ body {
   background: var(--neutral-Grayish-Blue);
 }
 
+.main-container {
+  display: grid;
+  grid-template: repeat(1, 2fr) / repeat(1, 2fr);
+}
+
 .info-container {
   background: var(--neutral-Light-Gray);
   margin: 2rem 2rem 0;
@@ -58,12 +63,10 @@ body {
 }
 
 .price {
+  color: var(--neutral-Light-Gray);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-h1 {
-  color: var(--neutral-Light-Gray);
 }
 
 .monthly-payment,
@@ -86,7 +89,7 @@ h1 {
   cursor: pointer;
   margin: 2rem;
   padding: 1rem;
-  width: 88%;
+  width: 87%;
 }
 .content-container {
   background: hsl(179, 96%, 43%);
@@ -100,5 +103,5 @@ h1 {
 }
 
 .content {
-  line-height: 1.6;
+  line-height: 1.5;
 }
