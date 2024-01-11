@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://miron-silviu.github.io/single-price-grid-component/)
+- Live Site URL:https://miron-silviu.github.io/single-price-grid-component/
 
 ## My process
 
