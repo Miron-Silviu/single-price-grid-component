@@ -21,7 +21,7 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 ## Links
-[CLLICK ME FOR LIVE VIEW](:https://miron-silviu.github.io/single-price-grid-component/)
+[CLLICK ME FOR LIVE VIEW](https://miron-silviu.github.io/single-price-grid-component/)
 
 ## Screenshot
 ![](image.png)
