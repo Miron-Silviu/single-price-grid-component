@@ -2,13 +2,17 @@
 
 ## Table of contents
 
+  - [Links](#links)
   - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+
+    
+ # Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/single-price-grid-component/)
 
 ## Overview
 
@@ -19,10 +23,7 @@ In this project I build a single price component using grid .
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-
-## Links
-[VIEW DEMO](https://miron-silviu.github.io/single-price-grid-component/)
-
+  
 ## Screenshot
 ![](image.png)
 
